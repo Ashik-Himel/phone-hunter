@@ -1534,14 +1534,6 @@ html {
   max-width: 550px;
 }
 
-.max-w-\[600px\] {
-  max-width: 600px;
-}
-
-.max-w-\[700px\] {
-  max-width: 700px;
-}
-
 .max-w-\[650px\] {
   max-width: 650px;
 }
@@ -1621,11 +1613,6 @@ html {
 .py-16 {
   padding-top: 4rem;
   padding-bottom: 4rem;
-}
-
-.py-56 {
-  padding-top: 14rem;
-  padding-bottom: 14rem;
 }
 
 .py-6 {
