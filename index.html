@@ -1,13 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Phone Hunter</title>
+  <!-- Fontawesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-  
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <!-- Navigation Section -->
+      <nav class="flex justify-between items-center gap-8 py-6">
+        <h2 class="text-3xl font-bold text-gray-700">Hot Gadgets</h2>
+        <a href="#" class="btn btn-primary">Sign Up</a>
+      </nav>
+      <!-- Hero Section -->
+      <section id="hero-section" class="mt-12">
+        <h1 class="text-5xl font-bold text-center text-black mb-2"></h1>
+        <p class="max-w-[550px] mx-auto text-center text-gray-500 mb-6">There are many variations of passages of Lorem Ipsum
+          available, but the majority have suffered alteration in some form, by injected humou.</p>
+        <a href="#" class="btn btn-primary relative left-1/2 -translate-x-1/2">Buy Now</a>
+        <img src="" alt="Phone Image" class="block mx-auto mt-8 w-full max-w-[300px]">
+      </section>
+    </div>
+  </header>
+
+  <main>
+    <!-- Search Section -->
+    <section class="mt-12">
+      <div class="container">
+        <h2 class="text-3xl font-bold text-center mb-6">Search your phone</h2>
+        <div class="w-full max-w-[450px] mx-auto flex justify-between items-stretch relative">
+          <label for="search" class="text-gray-400 flex justify-center items-center p-4 absolute left-0"><i class="fa-solid fa-magnifying-glass"></i></label>
+          <input class=" bg-gray-100 flex-1 ps-10 rounded" type="search" name="search" id="search" placeholder="Search your phone">
+          <a href="#" class="btn btn-primary relative -left-2">Search</a>
+        </div>
+      </div>
+    </section>
+    <section class="mt-12">
+      <div class="container">
+        <div id="card-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"></div>
+      </div>
+    </section>
+  </main>
+
+
   <script src="js/script.js"></script>
 </body>
+
 </html>
